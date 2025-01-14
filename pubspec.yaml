@@ -1,0 +1,33 @@
+name: dsw_51706
+description: "A new Flutter project."
+
+# Nie wysyłaj do pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences:
+  sqflite: ^2.2.0
+  path: ^1.8.3
+  very_good_analysis: 6.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/facebook_icon.png
+    - assets/images/google_icon.png
+    - assets/images/linkedin_icon.png
